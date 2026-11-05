@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#130b19">
+<meta name="description" content="Маленький особенный мир, созданный с теплом для Marjona.">
+<title>Для моей Marjona ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="gate">
+  <div class="gate-card">
+    <div class="gate-heart">♡</div>
+    <h1>Только для тебя</h1>
+    <p>У этого маленького мира есть свой секрет.<br>Введи особенный код, чтобы открыть его.</p>
+    <input id="pass" type="password" inputmode="numeric" maxlength="4" placeholder="••••" aria-label="Пароль">
+    <button id="unlock">Открыть моё послание ♡</button>
+    <div id="error"></div>
+  </div>
+</div>
+<main id="content" class="hidden">
+  <header class="hero">
+    <div class="glow one"></div><div class="glow two"></div>
+    <div class="eyebrow">маленький мир, созданный с теплом</div>
+    <h1>Для моей <span>Marjona</span></h1>
+    <p>Некоторые люди делают обычные дни чуточку светлее. Эта страница — маленькое напоминание о том, что хорошие моменты хочется беречь.</p>
+    <div class="scroll">ПРОКРУТИ ВНИЗ <div style="font-size:20px;margin-top:8px">⌄</div></div>
+  </header>
+  <section class="section">
+    <div class="section-head"><div class="eyebrow">несколько искренних слов</div><h2>От всего сердца</h2></div>
+    <article class="letter">
+      <h3>Дорогая Marjona…</h3>
+      <p>Я хотел создать для тебя нечто особенное — не просто страницу в интернете, а маленькое место, наполненное тёплыми словами и приятными воспоминаниями.</p>
+      <p>Пусть каждый новый день приносит тебе поводы улыбаться, силы для мечты и людей, рядом с которыми можно быть собой. Береги себя и никогда не забывай, насколько ты уникальна.</p>
+      <p>Пусть эти фотографии сохраняют хорошие мгновения, а это послание напоминает: самые простые знаки внимания иногда значат очень много.</p>
+      <div class="signature">С теплом и самыми добрыми пожеланиями ♡</div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="section-head"><div class="eyebrow">маленькая фотоколлекция</div><h2>Моменты Marjona</h2><p>Нажми на фотографию, чтобы рассмотреть её поближе.</p></div>
+    <div class="gallery" id="gallery"></div>
+  </section>
+  <section class="section quote">
+    <div class="big-heart">♥</div>
+    <h2>Пусть в твоей жизни будет как можно больше света.</h2>
+    <p>С УЛЫБКОЙ • С ТЕПЛОМ • ОТ ВСЕГО СЕРДЦА</p>
+  </section>
+  <footer>Создано с теплом специально для Marjona <span style="color:#f2a8c5">♡</span></footer>
+</main>
+<div id="viewer" aria-label="Просмотр фотографии"><button id="close" aria-label="Закрыть">×</button><img id="large" alt="Фотография Marjona"></div>
+<script src="script.js" defer></script>
+</body>
+</html>
